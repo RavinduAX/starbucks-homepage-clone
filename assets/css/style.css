@@ -35,7 +35,7 @@
   border-radius: 45px;
 }
 .text-div {
-  width: 624px;
+  width: 630px;
   max-height: 561px;
   padding: 32px 48px;
   text-align: center;
@@ -98,6 +98,15 @@
 }
 #sec-2 .main-div .outline-btn:hover {
   background-color: #C1D7D0;
+  border: 2px solid black;
+}
+
+/* section 1 */
+#sec-3 .main-div > div:first-child {
+  background-color: #8f8bf4;
+}
+#sec-3 .main-div .outline-btn:hover {
+  background-color: #807DDB;
   border: 2px solid black;
 }
 
