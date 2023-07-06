@@ -128,6 +128,26 @@
   border: 2px solid black;
 }
 
+/* section 6 */
+#sec-6 .row{
+   padding: 32px 0;
+}
+
+#sec-6 .row div{
+   max-width: 750px;
+   font-size: 14px;
+   color: black;
+}
+
+#sec-6 .row div a{
+   color: black;
+}
+
+#sec-6 .main-div:last-child{
+   border-bottom: 5px solid #dbdbdb;
+}
+
+
 
 
 
