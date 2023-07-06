@@ -110,6 +110,15 @@
   border: 2px solid black;
 }
 
+/* section 1 */
+#sec-4 .main-div > div:last-child {
+  background-color: #cbe678;
+}
+#sec-4 .main-div .outline-btn:hover {
+  background-color: #B9D571;
+  border: 2px solid black;
+}
+
 
 
 
