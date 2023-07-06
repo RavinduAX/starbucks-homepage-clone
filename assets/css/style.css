@@ -92,7 +92,7 @@
   border: 2px solid black;
 }
 
-/* section 1 */
+/* section 2 */
 #sec-2 .main-div > div:last-child {
   background-color: #d4e9e2;
 }
@@ -101,7 +101,7 @@
   border: 2px solid black;
 }
 
-/* section 1 */
+/* section 3 */
 #sec-3 .main-div > div:first-child {
   background-color: #8f8bf4;
 }
@@ -110,12 +110,21 @@
   border: 2px solid black;
 }
 
-/* section 1 */
+/* section 4 */
 #sec-4 .main-div > div:last-child {
   background-color: #cbe678;
 }
 #sec-4 .main-div .outline-btn:hover {
   background-color: #B9D571;
+  border: 2px solid black;
+}
+
+/* section 5 */
+#sec-5 .main-div > div:first-child {
+  background-color: #e1fccd;
+}
+#sec-5 .main-div .outline-btn:hover {
+  background-color: #CDE8BD;
   border: 2px solid black;
 }
 
