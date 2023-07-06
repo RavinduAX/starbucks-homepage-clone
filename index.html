@@ -4,21 +4,154 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Starbucks Clone</title>
+   <title>Bootstrap demo</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+   <!-- navbar -->
+   <header>
+      <nav class="navbar navbar-expand-lg bg-body-white border-opacity-75">
+         <div class="container-fluid px-5 py-2">
+            <a class="navbar-brand me-4" href="#">
+               <img class="logo" src="assets/img/logo.svg" alt="Bootstrap" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="nav-div collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">menu</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">rewards</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">gift cards</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="btn-div collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item mx-5">
+                     <a class="nav-link fs-6 fw-bold" href="#"><i class="bi fs-4 bi-geo-alt-fill me-3"></i>Find a
+                        store</a>
+                  </li>
+                  <li class="nav-item me-3 my-auto">
+                     <a class="btn fw-medium btn-white text-black rounded-pill border border-dark border-2"
+                        href="#">Sign
+                        in</a>
+                  </li>
+                  <li class="nav-item my-auto">
+                     <a class="btn btn-dark text-white rounded-pill border border-dark border-2" href="#">Join now</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
 
 
-   <h1>Hello, world!</h1>
+   <main>
+      <!-- section 1 -->
+      <section id="sec-1">
+         <div class="row main-div">
+            <div class="col-6 inner-div">
+               <div class="text-div">
+                  <h2 class="title">Talk about refreshing</h2>
+                  <p class="subtitle">Introducing our vibrant new Frozen Lemonade Starbucks Refreshers® beverages:
+                     Strawberry Açaí, Pineapple Passionfruit and
+                     Mango Dragonfruit.</p>
+                  <a href="#" class="outline-btn btn">Order now</a>
+               </div>
+            </div>
+
+            <div class="col-6 p-0">
+               <img class="img-div" src="assets/img/sec-1-bg.jpg" alt="">
+            </div>
+         </div>
+      </section>
+
+      <!-- section 2 -->
+      <section id="sec-2">
+         <div class="row main-div">
+            <div class="col-6 p-0">
+               <img class="img-div" src="assets/img/sec-2-bg.webp" alt="">
+            </div>
+            <div class="col-6 inner-div">
+               <div class="text-div">
+                  <h2 class="subtitle mb-4">Soak up delicious Rewards</h2>
+                  <p class="para">You’re closer than you think to free drinks & food.*</p>
+                  <a href="#" class="outline-btn btn">Join now</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- section 3 -->
+      <section id="sec-3">
+         <div class="row main-div">
+            <div class="col-6 inner-div">
+               <div class="text-div">
+                  <h2 class="title">Summer to the max</h2>
+                  <p class="subtitle">Go for a Mocha Cookie Crumble or Caramel Ribbon Crunch Frappuccino® blended
+                     beverage.</p>
+                  <a href="#" class="outline-btn btn">Order now</a>
+               </div>
+            </div>
+
+            <div class="col-6 p-0">
+               <img class="img-div" src="assets/img/sec-3-bg.jpg" alt="">
+            </div>
+         </div>
+      </section>
+
+      <!-- section 4 -->
+      <section id="sec-4">
+         <div class="row main-div">
+            <div class="col-6 p-0">
+               <img class="img-div" src="assets/img/sec-4-bg.jpg" alt="">
+            </div>
+            <div class="col-6 inner-div">
+               <div class="text-div">
+                  <h2 class="title">Get there satisfied</h2>
+                  <p class="subtitle">Fill up on the way with a Spinach, Feta & Egg White Wrap or Bacon, Sausage & Egg
+                     Wrap.
+                  </p>
+                  <a href="#" class="outline-btn btn">Order now</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- section 5 -->
+      <section id="sec-5">
+         <div class="row main-div">
+
+            <div class="col-6 inner-div">
+               <div class="text-div">
+                  <h2 class="subtitle mb-4">Be kind to your mind</h2>
+                  <p class="para">We teamed up with Headspace to bring you four free meditations on kindness, plus a special offer for Starbucks® Rewards
+                  members—discover more mindfulness with a two-month free membership.**
+                  </p>
+                  <a href="#" class="outline-btn btn">Listen now</a>
+               </div>
+            </div>
+            <div class="col-6 p-0">
+               <img class="img-div" src="assets/img/sec-5-bg.jpg" alt="">
+            </div>
+         </div>
+      </section>
+
+   </main>
 
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"></script>
